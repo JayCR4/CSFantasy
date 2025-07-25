@@ -1,9 +1,12 @@
 ﻿h2
 {
-    color:blue
+    color:blue;
 }
 
-p
-{
-    color: yellow
+p {
+    color: #e6f13d;
+}
+
+body{
+    background-color:burlywood;
 }
