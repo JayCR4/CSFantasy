@@ -37,8 +37,64 @@ button {
     border-radius: 8px;
 }
 
+
+
+
 button:hover {
     background-color: #FFD700;
     color: #0F1113;
     transition: 0.3s ease-in-out;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+
+.dropdown-btn {
+    background-color: #3A7CA5;
+    color: #E1E1E1;
+    padding: 12px 16px;
+    border: 1px solid #66D9EF;
+    cursor: pointer;
+    font-weight: bold;
+    width: 220px;
+    text-align: left;
+    border-radius: 6px 6px 0 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1C1F22;
+    min-width: 220px;
+    border: 1px solid #66D9EF;
+    border-top: none;
+    z-index: 1;
+    border-radius: 0 0 6px 6px;
+}
+
+.dropdown-content a {
+  color: #E1E1E1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #FFD700;
+  color: #0F1113;
+}
+
+.dropdown-content a.active {
+  background-color: #FF8C00;
+  color: #0F1113;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
