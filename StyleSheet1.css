@@ -1,5 +1,13 @@
-﻿h2 {
+﻿h1 {
+    color: #FFD700;
+}
+
+h2 {
     color: #B0B0B0;
+}
+
+h4 {
+    color: #FF4C4C;
 }
 
 p {
