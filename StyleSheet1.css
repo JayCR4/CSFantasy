@@ -26,6 +26,7 @@ body {
 }
 
 button {
+    background: linear-gradient(#0F1113, #1C1F22);
     background-color: #3A7CA5;
     color: #E1E1E1;
     border: 1px solid #2E3338;
