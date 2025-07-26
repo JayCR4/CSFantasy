@@ -14,15 +14,24 @@
     <a href="Leaderboard.html"><button>Leaderboard</button></a>
     <br />
 
-    <div class="dropdown">
-        <button class = "dropdown-btn">2025</button>
-        <div class = "dropdown-content">
-            <div class = "dropdown-item active"><u>Katowice</u></div>
-            <div class="dropdown-item">Katowice Playoffs 2025 - Chris</div>
+    <div class="year-dropdown">
+        <button class="toggle-btn" onclick="toggleMenu('year2025', this)">2025 ></button>
+        <div id="year2025" class="nested-menu">
+            <button class="toggle-btn nested" onclick="toggleMenu('katowice2025', this)">Katowice ></button>
+            <div id="katowice2025" class="nested-menu">
+                <div class="nested-item">Stage 1</div>
+                <div class="nested-item">Stage 2</div>
+            </div>
+            <button class="toggle-btn nested" onclick="toggleMenu('cluj2025', this)">Cluj-Napoca ></button>
+            <div id="cluj2025" class="nested-menu">
+                <div class="nested-item">Groups</div>
+                <div class="nested-item">Playoffs</div>
+            </div>
         </div>
     </div>
 
-    
+
+
 </body>
 
 </html>
