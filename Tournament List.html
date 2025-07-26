@@ -14,21 +14,32 @@
     <a href="Leaderboard.html"><button>Leaderboard</button></a>
     <br />
 
-    <div class="year-dropdown">
-        <button class="toggle-btn" onclick="toggleMenu('year2025', this)">2025 ></button>
-        <div id="year2025" class="nested-menu">
-            <button class="toggle-btn nested" onclick="toggleMenu('katowice2025', this)">Katowice ></button>
-            <div id="katowice2025" class="nested-menu">
-                <div class="nested-item">Stage 1</div>
-                <div class="nested-item">Stage 2</div>
+    <div class="accordion">
+
+        <!-- Year Dropdown -->
+        <input type="checkbox" id="year2025" hidden>
+        <label for="year2025" class="accordion-label">2025</label>
+        <div class="accordion-content">
+
+            <!-- Tournament: Katowice -->
+            <input type="checkbox" id="katowice" hidden>
+            <label for="katowice" class="accordion-sub">Katowice</label>
+            <div class="accordion-subcontent">
+                <p>Stage 1</p>
+                <p>Stage 2</p>
             </div>
-            <button class="toggle-btn nested" onclick="toggleMenu('cluj2025', this)">Cluj-Napoca ></button>
-            <div id="cluj2025" class="nested-menu">
-                <div class="nested-item">Groups</div>
-                <div class="nested-item">Playoffs</div>
+
+            <!-- Tournament: Cluj-Napoca -->
+            <input type="checkbox" id="cluj" hidden>
+            <label for="cluj" class="accordion-sub">Cluj-Napoca</label>
+            <div class="accordion-subcontent">
+                <p>Groups</p>
+                <p>Playoffs</p>
             </div>
+
         </div>
     </div>
+
 
 
 
