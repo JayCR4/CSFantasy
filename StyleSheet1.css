@@ -38,6 +38,12 @@ button {
     border-radius: 8px;
 }
 
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
 button:hover {
     background-color: #FFD700;
     color: #0F1113;
