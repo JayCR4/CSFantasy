@@ -91,3 +91,53 @@ input:checked + .accordion-sub + .accordion-subcontent {
     padding-left: 10px;
 }
 
+
+
+
+.leaderboard {
+    margin-top: 30px;
+    background-color: #1C1F22;
+    padding: 20px;
+    border: 1px solid #66D9EF;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .leaderboard h2 {
+        color: #FFD700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .leaderboard table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        color: #E1E1E1;
+    }
+
+    .leaderboard th, .leaderboard td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #2E3338;
+    }
+
+    .leaderboard tr:hover {
+        background-color: #3A7CA5;
+        color: #0F1113;
+    }
+
+.gold {
+    background-color: rgba(255, 215, 0, 0.1);
+}
+
+.silver {
+    background-color: rgba(192, 192, 192, 0.1);
+}
+
+.bronze {
+    background-color: rgba(205, 127, 50, 0.1);
+}
