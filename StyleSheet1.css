@@ -37,6 +37,12 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    background-color: #FFD700;
+    color: #0F1113;
+    transition: 0.3s ease-in-out;
+}
+
 
 
 
